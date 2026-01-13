@@ -1,0 +1,46 @@
+{
+  "best_params_by_block": {
+    "tfidf_model": {
+      "analyzer": "char_wb",
+      "ngram_word": [1, 3],
+      "ngram_char": [3, 5],
+      "min_df": 0.0019354710047961533,
+      "max_df": 0.929823623281149,
+      "max_features": null,
+      "sublinear_tf": false,
+      "norm": null
+    },
+    "tfidf_engine": {
+      "analyzer": "char_wb",
+      "ngram_word": [1, 1],
+      "ngram_char": [3, 5],
+      "min_df": 0.009150665876378068,
+      "max_df": 0.9793563048246156,
+      "max_features": 40000,
+      "sublinear_tf": true,
+      "norm": null
+    },
+    "tfidf_transmission": {
+      "analyzer": "word",
+      "ngram_word": [1, 2],
+      "ngram_char": [4, 6],
+      "min_df": 0.019434358594147716,
+      "max_df": 0.9130841255114773,
+      "max_features": 2000,
+      "sublinear_tf": false,
+      "norm": "l2"
+    },
+    "xgb": {
+      "n_estimators": 1600,
+      "learning_rate": 0.04623222045025156,
+      "max_depth": 5,
+      "min_child_weight": 0.013683558256795545,
+      "subsample": 0.7909332905323827,
+      "colsample_bytree": 0.7843244316811016,
+      "reg_alpha": 0.00004739492673356427,
+      "reg_lambda": 0.02532290345612286,
+      "gamma": 0.002125732013130148
+    }
+  },
+  "best_cv_rmse_on_y_log_rmsle": 0.25371397733688356
+}
