@@ -11,8 +11,8 @@ from category_encoders import TargetEncoder
 from huggingface_hub import hf_hub_download
 
 train_data = hf_hub_download(
-        repo_id="Carson-Shively/uber-fares",
-        filename="data/gold/gold_uf.parquet",
+        repo_id="Carson-Shively/used-car-price",
+        filename="data/silver/silver.parquet",
         repo_type="dataset",
         revision="main",
     )
